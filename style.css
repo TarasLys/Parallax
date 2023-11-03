@@ -79,6 +79,14 @@ font-family: PT Sans;
     height: 1px;
 }
 
+.parallax__label::after {
+    flex: 0 0 70px;
+    content: "";
+    margin: 0px 30px 0px 0px;
+    background-color: #fbd784;
+    height: 1px;
+}
+
 .parallax__title {
     font-size: 88px;
 }
